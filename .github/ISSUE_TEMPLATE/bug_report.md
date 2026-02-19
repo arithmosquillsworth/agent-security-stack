@@ -1,52 +1,61 @@
 ---
-name: Bug report
-about: Report a security issue or bug in the Agent Security Stack
+name: Bug Report
+about: Report a security vulnerability or functional bug
 title: '[BUG] '
 labels: bug
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Summary
+<!-- Brief description of the issue -->
 
-**Affected tool**
-- [ ] agent-tx-firewall
-- [ ] agent-honeypot
-- [ ] prompt-guard
-- [ ] tx-simulator
-- [ ] agent-security-dashboard
-- [ ] agent-wallet-monitor
-- [ ] agent-reputation-scanner
-- [ ] agent-config-manager
-- [ ] agent-cli
-- [ ] Other (specify)
+## Severity
+<!-- Select one -->
+- [ ] Critical — Protocol at risk, immediate action required
+- [ ] High — Significant impact, fix within 24h
+- [ ] Medium — Moderate impact, fix within week
+- [ ] Low — Minor issue, fix when convenient
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Run command '...'
-2. Configure '...'
-3. See error
+## Component
+<!-- Which part of the system? -->
+- [ ] Smart contract
+- [ ] Protocol logic
+- [ ] Frontend/UI
+- [ ] Documentation
+- [ ] Other: ___________
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Description
+<!-- Detailed description of the bug -->
 
-**Logs**
+## Steps to Reproduce
+1. 
+2. 
+3. 
+
+## Expected Behavior
+<!-- What should happen? -->
+
+## Actual Behavior
+<!-- What actually happens? -->
+
+## Impact
+<!-- Financial, operational, reputational impact -->
+
+## Proof of Concept
+<!-- If available, include PoC code or steps -->
+
 ```
-Paste relevant logs here
+<!-- Paste PoC here -->
 ```
 
-**Environment:**
- - OS: [e.g. Ubuntu 22.04]
- - Tool version: [e.g. v0.1.0]
- - Go version: [e.g. 1.21]
+## Suggested Fix
+<!-- Optional: Your recommendation for fixing -->
 
-**Additional context**
-Add any other context about the problem here.
+## Additional Context
+<!-- Any other relevant information -->
 
-**Security impact**
-- [ ] This is a security vulnerability
-- [ ] This could lead to fund loss
-- [ ] This could lead to unauthorized access
-- [ ] This is a crash/DoS issue
-- [ ] None of the above
+## Checklist
+- [ ] I have searched existing issues
+- [ ] This is not a duplicate
+- [ ] I can provide more details if needed

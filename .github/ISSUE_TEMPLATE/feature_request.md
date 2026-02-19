@@ -1,38 +1,37 @@
 ---
-name: Feature request
-about: Suggest an idea for the Agent Security Stack
+name: Feature Request
+about: Suggest a new feature or enhancement
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem?**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Summary
+<!-- Brief description of the feature -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Motivation
+<!-- Why is this feature needed? What problem does it solve? -->
 
-**Which tool(s) would this affect?**
-- [ ] agent-tx-firewall
-- [ ] agent-honeypot
-- [ ] prompt-guard
-- [ ] tx-simulator
-- [ ] agent-security-dashboard
-- [ ] agent-wallet-monitor
-- [ ] agent-reputation-scanner
-- [ ] agent-config-manager
-- [ ] agent-cli
-- [ ] New tool (describe below)
+## Detailed Description
+<!-- Detailed explanation of the proposed feature -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Use Cases
+<!-- Specific scenarios where this would be useful -->
+1. 
+2. 
+3. 
 
-**Agent use case**
-Describe how this feature would help autonomous AI agents:
-- What scenario does it address?
-- How would it improve agent security?
-- What type of agents would benefit most?
+## Proposed Implementation
+<!-- Optional: How you think this should be built -->
 
-**Additional context**
-Add any other context, mockups, or examples about the feature request here.
+## Alternatives Considered
+<!-- Other approaches you've thought about -->
+
+## Additional Context
+<!-- Any other relevant information, mockups, etc. -->
+
+## Checklist
+- [ ] I have searched existing issues
+- [ ] This is not a duplicate request
+- [ ] This feature aligns with project goals
